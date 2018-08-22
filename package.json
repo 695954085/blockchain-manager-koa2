@@ -1,0 +1,31 @@
+{
+  "name": "blockchain-manager-koa2",
+  "version": "1.0.0",
+  "description": "a server using koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/695954085/blockchain-manager-koa2.git"
+  },
+  "keywords": [
+    "koa2"
+  ],
+  "author": "xiachiquan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/695954085/blockchain-manager-koa2/issues"
+  },
+  "homepage": "https://github.com/695954085/blockchain-manager-koa2#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
